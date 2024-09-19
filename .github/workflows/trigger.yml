@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install tkinter transformers PyPDF2 llama-toolchain
+        pip install transformers PyPDF2 llama-toolchain
             
 
     - name: App.py
